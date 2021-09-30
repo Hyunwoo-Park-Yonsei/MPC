@@ -1,0 +1,8 @@
+Name: ACADO Toolkit
+Description: Toolkit for Automatic Control and Dynamic Optimization
+URL: http://www.acadotoolkit.org
+Version: 1.2.2beta
+Libs: -L/home/kevin/acado/build/lib -lacado_toolkit_s
+Cflags: -I/home/kevin/acado -I/home/kevin/acado/acado -I/home/kevin/acado/external_packages -I/home/kevin/acado/external_packages/qpOASES-3.2.0/include -I/home/kevin/acado/build
+qpOASESsrc= /home/kevin/acado/external_packages/qpoases/SRC/Bounds.cpp /home/kevin/acado/external_packages/qpoases/SRC/CyclingManager.cpp /home/kevin/acado/external_packages/qpoases/SRC/MessageHandling.cpp /home/kevin/acado/external_packages/qpoases/SRC/QProblem.cpp /home/kevin/acado/external_packages/qpoases/SRC/Utils.cpp /home/kevin/acado/external_packages/qpoases/SRC/Constraints.cpp /home/kevin/acado/external_packages/qpoases/SRC/Indexlist.cpp /home/kevin/acado/external_packages/qpoases/SRC/QProblemB.cpp /home/kevin/acado/external_packages/qpoases/SRC/SubjectTo.cpp /home/kevin/acado/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp
+qpOASESinc= -I/home/kevin/acado/external_packages/qpoases/ -I/home/kevin/acado/external_packages/qpoases/INCLUDE -I/home/kevin/acado/external_packages/qpoases/SRC
